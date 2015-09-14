@@ -1,0 +1,58 @@
+#imgcapa {
+	width: auto;
+	height: auto;
+	box-shadow: 0px 0px 10px black;
+}
+#info-rodape {
+	background: rgba(0,0,0,.05);
+	text-align: center;
+}
+
+#principal {	
+	width: 1000px;
+	border: 1px solid black;
+	margin:0px auto;	
+	/*para centralizar no IE;*/
+	position: absolute;	
+	left:50%;
+	margin-left:-500px;	
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+#cabecalho {	
+	width: 1000px;
+	height: 200px;
+	border: 1px solid white;
+}
+#corpo {		
+	width: 1000px;
+	border: 1px solid white;
+	height:100%;
+	
+}
+#rodape {		
+	width: 1000px;
+	height: 75px;
+	border: 1px solid white;
+		
+}
+
+#esquerda {
+	float: left;
+	width: 200px;
+	height: 400px;
+	border: 1px solid white;
+}
+#centro {
+	
+	float: left;
+	width: 790px;
+	border: 1px solid white;
+	}
+
+
+
+
+
+
+
+

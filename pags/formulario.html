@@ -1,0 +1,68 @@
+<form>	
+	<ul type="disc">
+	<div class="form-group">
+		<label>Name:</label>
+		 <input type="nome" class="form-control" id="nomeimput" placeholder="Nome">
+	</div>
+	<div class="form-group">
+		<label>Email:</label>
+		 <input type="email" class="form-control" id="emailimput" placeholder="Email">
+	</div>
+	<div class="form-group">
+		<label>Senha:</label>
+		 <input type="email" class="form-control" id="senhalimput" placeholder="Senha">
+	</div>
+	<br>
+	<div>
+	<li><label>Por favor verifique todos as emoções que se aplicam a você:
+		</label><ul type="">
+		<div class="checkbox">
+			<input type="checkbox" name="emotions" value="zangado"> Zangado
+			<br>
+			<input type="checkbox" name="emotions" value="triste">Triste
+			<br>
+			<input type="checkbox" name="emotions" value="feliz">Feliz
+			<br>
+			<input type="checkbox" name="emotions" value="teimoso">Teimoso
+		</div>
+		</ul>
+	</li>
+	</div>
+	<div>
+	<li><label>Ficou satisfeito com o nosso serviço?</label>
+		<div class="radio">
+		<ul type="">
+		<label><input type="radio" name="serviço" value="muitosatisfeito">Muito satisfeito </label>
+		<label><input type="radio" name="serviço" value="satisfeito">Satisfeito </label>
+		<label><input type="radio" name="serviço" value="sematencao">Sem atenção </label>
+		<label><input type="radio" name="serviço" value="insatisfeito">Insatisfeito </label>
+		<label><input type="radio" name="serviço" value="muitoinsatisfeito">Muito insatisfeito </label>
+		</ul>
+		</div>
+	</li>
+	</div>
+	<li>
+		Outros comentários:
+		<textarea class="form-control" rows="3" placeholder="Comentario"></textarea>
+	</li>
+	<li>
+		<div class="form-group">
+			<label for="inputfoto">Foto:</label>
+		<input type="file" id="inputfoto">
+		<p class="help-block">Escolha uma foto</p>
+        </div>
+	</li>
+	<li>
+		<label>Local visitado:</label>
+		<select class="form-control">
+		  <option value="selection">Selecione o local</option>
+		  <option value="torres">Torres</option>
+		  <option value="poa">Porto Alegre</option>
+		  <option value="criciuma">Criciuma</option>
+		</select>
+	</li>
+	</ul>
+	 <div class="col-sm-offset-1">
+  		<button type="submit" class="btn btn-default">Enviar</button>
+	 </div>
+</form>
